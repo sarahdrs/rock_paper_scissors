@@ -1,0 +1,21 @@
+{
+  "name": "rock_paper_scissors",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "eslint": "^8.47.0",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@db-ui/elements-enterprise": "^0.24.6"
+  }
+}

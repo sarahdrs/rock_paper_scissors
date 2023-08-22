@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="assets/db-ui-core.vars.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors</title>
+    <script type="module">
+      import { defineCustomElements } from "https://cdn.jsdelivr.net/npm/@db-ui/elements@0.15.0/loader/index.es2017.js";
+      defineCustomElements();
+    </script>
+  </head>
+  <body>
+
+    <db-header>
+      <db-brand>Schere Stein Papier</db-brand>
+    </db-header>
+
+    <div class="player-choice">
+      <db-headline>Runde <span id="round-count">1</span> von 3</db-headline>
+
+      <db-headline variant="3">1. Wähle aus oder lasse den Computer spielen</db-headline>
+      <div class="card-grid" id="card-grid">
+        <db-image src="assets/scissors.png" class='game-card' id="scissors" caption="Schere"></db-image>
+        <db-image src="assets/rock.png" class='game-card' id="rock" caption="Stein"></db-image>
+        <db-image src="assets/paper.png" class='game-card' id="paper" caption="Papier"></db-image>
+
+
+      </div>
+      <db-toggle id="auto-select"> Computer </db-toggle>
+      <db-headline variant="3">Spieler 1: <span class="choice" id="choice-ply1"></span></db-headline>
+      <db-headline variant="3">2. Drücke Start</db-headline>
+      <db-button  variant="brand-primary" id="startGame" size="large">Start</db-button>
+      <db-headline variant="3">Spieler 2: <span class="choice" id="choice-comp"></span></db-headline>
+
+      <div id="winner"></div>
+      <db-button variant="primary" id="next-round">Nächste Runde</db-button>
+      <db-card><db-headline variant="5">Punkte</db-headline><span id="player1">0</span>:<span
+          id="player2">0</span></db-card>
+
+
+      <db-button variant="primary" id="refresh">Nochmal</db-button>
+
+      <db-headline variant="2" id="game-result"></db-headline>
+
+
+    </div>
+
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>

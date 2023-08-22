@@ -1,0 +1,50 @@
+.player-choice {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  margin: 50px;
+}
+
+img {
+  width: 150px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.choice {
+  font-size: 24px;
+  color: #9a6ca6;
+}
+
+#game-result {
+  font-size: 30px;
+  color: #421857
+}
+
+#winner{
+  margin: 50px;
+}
+
+db-button {
+  margin:30px
+}
+
+#refresh{
+  display: none;
+}
+
+#next-round{
+  display: none;
+}
+
+h3{
+      text-align: center;
+}
