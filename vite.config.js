@@ -1,5 +1,5 @@
 // vite.config.js
 export default {
     // config options
-    base:'rock_paper_scissors'
+    base:'/rock_paper_scissors'
 }
