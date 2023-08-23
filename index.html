@@ -15,7 +15,7 @@
   <body>
 
     <db-header>
-      <db-brand>Schere Stein Papier</db-brand>
+      <db-brand id="db-brand">Schere Stein Papier</db-brand>
     </db-header>
 
     <div class="player-choice">
@@ -23,16 +23,16 @@
 
       <db-headline variant="3">1. Wähle aus oder lasse den Computer spielen</db-headline>
       <div class="card-grid" id="card-grid">
-        <db-image src="assets/scissors.png" class='game-card' id="scissors" caption="Schere"></db-image>
-        <db-image src="assets/rock.png" class='game-card' id="rock" caption="Stein"></db-image>
-        <db-image src="assets/paper.png" class='game-card' id="paper" caption="Papier"></db-image>
+        <db-image class='game-card' id="scissors" caption="Schere"></db-image>
+        <db-image class='game-card' id="rock" caption="Stein"></db-image>
+        <db-image class='game-card' id="paper" caption="Papier"></db-image>
 
 
       </div>
       <db-toggle id="auto-select"> Computer </db-toggle>
       <db-headline variant="3">Spieler 1: <span class="choice" id="choice-ply1"></span></db-headline>
       <db-headline variant="3">2. Drücke Start</db-headline>
-      <db-button  variant="brand-primary" id="startGame" size="large">Start</db-button>
+      <db-button variant="brand-primary" id="startGame" size="large">Start</db-button>
       <db-headline variant="3">Spieler 2: <span class="choice" id="choice-comp"></span></db-headline>
 
       <div id="winner"></div>

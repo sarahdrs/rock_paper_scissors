@@ -1,3 +1,13 @@
+import scissors from '../assets/scissors.png'
+import rock from '../assets/rock.png'
+import paper from '../assets/paper.png'
+import db from '../assets/images/db_logo.svg'
+document.getElementById('scissors').src = scissors
+document.getElementById('rock').src = rock
+document.getElementById('paper').src = paper
+document.getElementById('db-brand').src = db
+
+
 let player2 = 0
 let player1 = 0
 let player2Selection = ''
@@ -120,5 +130,3 @@ function compare(player1, player2) {
   }
   document.getElementById('card-grid').style = 'display: none'
 }
-
-
