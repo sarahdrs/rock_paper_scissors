@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     if (autoChoice) {
       player1Selection = randomselect(choices);
       document.getElementById("choice-ply1").innerHTML = player1Selection;
+      startButton.removeAttribute("disabled");
     } else {
       document.getElementById("choice-ply1").innerHTML = "";
     }
@@ -50,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     card.onclick = () => {
       player1Selection = choices[i];
       document.getElementById("choice-ply1").innerHTML = choices[i];
+      startButton.removeAttribute("disabled");
     };
   });
   nextRoundButton.addEventListener("click", (e) => {
@@ -61,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.getElementById("winner").innerHTML = "";
     document.getElementById("auto-select").removeAttribute("checked");
     autoChoice = false;
+    startButton.setAttribute("disabled",'');
   });
 });
 
