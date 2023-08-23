@@ -10,10 +10,11 @@ Run `npm run dev`to start the local host and `npm run build` to create a dist fo
 It is developed for Google Chrome but works also for other current browsers.
 
 ### #1 Target Users and Responsiveness
-This game is part of an application process as a coding challenge for team **Pareto** as target user at DB Systel.
+This game is part of a coding challenge for team **Pareto** DB Systel which are also the target users.
 The game is responsive for multiple devices from desktop to mobile.
 ### #2 Design System
-The application uses components from DB UI. DB UI Elements is a library, that provides style conform UI components for Deutsche Bahn web frontends.
+The application uses components from DB UI. 
+DB UI Elements is a library, that provides style conform UI components for Deutsche Bahn web frontends.
 ### #3 Testing & Code Quality
 
 <img width="100" src="https://stylelint.io/img/light.svg" alt="Stylelint logo">  
@@ -27,7 +28,7 @@ It will find errors and if possible fix them automatically:
    > npx stylelint "style.css" --fix
 
 
-<img width="100" src="https://www.cypress.io/blog/assets/img/Cypress_Logos/LogoText-2022.png?v=1ed61ee28d" alt="Cypress logo">
+<img width="100" src="https://www.cypress.io/images/layouts/navbar-brand.svg" alt="Cypress logo">
 
 E2E Testing is a technique that tests your app from the web browser through to the back end of your application, as well as testing integrations with third-party APIs and services. These types of tests are great at making sure your entire app is functioning as a cohesive whole.
 
