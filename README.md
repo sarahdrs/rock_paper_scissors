@@ -27,7 +27,7 @@ It will find errors and if possible fix them automatically:
    > npx stylelint "style.css" --fix
 
 
-<img width="100" src=["https://www.cypress.io/blog/assets/img/Cypress_Logos/LogoText-2022.png?v=1ed61ee28d](https://www.cypress.io/images/layouts/navbar-brand.svg)" alt="Cypress logo">
+<img width="100" src=https://www.cypress.io/images/layouts/navbar-brand.svg" alt="Cypress logo">
 
 E2E Testing is a technique that tests your app from the web browser through to the back end of your application, as well as testing integrations with third-party APIs and services. These types of tests are great at making sure your entire app is functioning as a cohesive whole.
 
