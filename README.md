@@ -10,10 +10,11 @@ Run `npm run dev`to start the local host and `npm run build` to create a dist fo
 It is developed for Google Chrome but works also for other current browsers.
 
 ### #1 Target Users and Responsiveness
-This game is part of an application process as a coding challenge for team **Pareto** as target user at DB Systel.
+This game is part of a coding challenge for team **Pareto** DB Systel which are also the target users.
 The game is responsive for multiple devices from desktop to mobile.
 ### #2 Design System
-The application uses components from DB UI. DB UI Elements is a library, that provides style conform UI components for Deutsche Bahn web frontends.
+The application uses components from DB UI. 
+DB UI Elements is a library, that provides style conform UI components for Deutsche Bahn web frontends.
 ### #3 Testing & Code Quality
 
 <img width="100" src="https://stylelint.io/img/light.svg" alt="Stylelint logo">  
